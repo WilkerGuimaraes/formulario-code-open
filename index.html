@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar..."><button type="submit"><i class="bx bx-search"></i></button>
+        </div>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='uil uil-book-open'></i> Code open</h2>
+
+            <div class="text-sci">
+                <h2>Bem vindo(a)!<br><span>Desenvolvemos sistemas únicos.</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros ex, faucibus vel tellus vel, condimentum efficitur eros.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                        <i class="uil uil-eye-slash ph-hide" id="phHide"></i>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Lembrar de mim.</label><a href="#" class="linka">Esqueceu a senha?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Entrar</button>
+
+                    <div class="login-register">
+                        <p>Não tem uma conta? <a href="#" class="linka register-link">Criar conta</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Cadastre-se</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-user"></i></span>
+                        <input type="text" required>
+                        <label>Nome</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-envelope"></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                        <i class="uil uil-eye-slash ph-hide" id="phHide"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                        <input type="password" required>
+                        <label>Confirme a senha</label>
+                        <i class="uil uil-eye-slash ph-hide" id="phHide"></i>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Aceito todos os <a href="#" class="linka">termos & condições.</a></label>
+                    </div>
+
+                    <button type="submit" class="btn">Cadastrar</button>
+
+                    <div class="login-register">
+                        <p>Já tem uma conta? <a href="#" class="linka login-link">Entrar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>
